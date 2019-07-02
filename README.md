@@ -1,6 +1,12 @@
 # 디자인 패턴 (Design Pattern)
 
+![GOF Types](./docs/gof_types.png)
+
 ## 생성 패턴 (Creational Pattern)
+
+> 객체를 생성하는데 관련된 패턴들
+> 객체가 생성되는 과정의 유연성을 높이고 코드의 유지를 쉽게 함
+
 
 ### [팩토리 메서드 패턴 (Factory Method Pattern)](./src/main/java/com/jaeyeonling/designpattern/factorymethod)
 
@@ -74,6 +80,10 @@
 
 ## 구조 패턴 (Structural Pattern)
 
+> 프로그램 구조에 관련된 패턴들
+> 프로그램 내의 자료구조나 인터페이스 구조 등 프로그램의 구조를 설계하는데 활용할 수 있는 패턴들
+
+
 ### [브릿지 패턴 (Bridge Pattern)](./src/main/java/com/jaeyeonling/designpattern/bridge)
 
 기능 계층과 구현 계층의 분리
@@ -139,6 +149,8 @@ ex)
 
 
 ## 행위 패턴 (Behavioral Pattern)
+
+> 반복적으로 사용되는 객체들의 상호작용을 패턴화 해놓은 것들
 
 ### [전략 패턴 (Strategy Pattern)](./src/main/java/com/jaeyeonling/designpattern/strategy)
 
